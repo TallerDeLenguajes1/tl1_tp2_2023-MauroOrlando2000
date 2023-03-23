@@ -1,0 +1,7 @@
+Respuestas punto 2 apartado f
+
+Se puede ver el archivo tp2_1_2.c en el explorador de archivos. Este se debe a que si bien los archivos se encuentran en la misma carpeta local, para git se encuentran en otro lugar debido al branch creado. Los branch sirven para organizar los cambios en el proyecto, como arreglar un error, o una actualización. A nivel de organización local no cambia nada.
+
+La diferencia al hacer commit al archivo de "Respuestas.txt", es que este se encuentra en el branch "main", y antes se hizo un commit en el branch "Opcion_2". De este modo en la funcion "gitk --all" se puede observar que se "abrió un camino" o se "separó una rama" en las listas de versiones del proyecto.
+
+Al hacer merge, se observa que el "camino" o "rama" abierta en la acción anterior se volvió a unir al "main", todo indicando a que esa rama fue parte de proyecto y ahora se volvió a unir a el formando uno solo, aplicando los cambios hechos en este al main.
